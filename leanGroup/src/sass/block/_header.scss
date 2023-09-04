@@ -1,0 +1,53 @@
+.item__list-link {
+  color: var(--color-text, #2C2D2E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.item__list-link:hover {
+  color: var(--color-primary, #EF7C00);
+}
+
+.dropdown {
+  position: absolute;
+  top: 10%;
+  padding: 5px;
+  background: #fff;
+}
+
+.close {
+  display: none;
+}
+
+.header__nav-box {
+  display: none !important;
+}
+
+.btn__img {
+  background-image: url('../../assets/burger-bar.png');
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 985px) {
+  .header__nav {
+    display: none !important;
+  }
+
+  .header__nav-box {
+    display: block !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .btn {
+    background-color: transparent;
+    border: none;
+  }
+}

@@ -1,0 +1,59 @@
+.our__img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.our__box__inner-title {
+  color: var(--color-text, #2C2D2E);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.our__box__inner-text {
+  color: var(--color-text-secondary, #919399);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.our__box__inner-number {
+  color: var(--color-text, #2C2D2E);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.our__box__inner-email {
+  color: var(--color-text, #2C2D2E);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}

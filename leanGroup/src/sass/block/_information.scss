@@ -1,0 +1,55 @@
+.info__inner-title {
+  color: #2C2D2E;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
+.info__inner__title-span {
+  color: #EF7C00;
+}
+
+.info__inner-text {
+  color: #2C2D2E;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.info__box-inner {
+  padding-top: 5%;
+}
+
+.info__box {
+  background-image: url('../assets/infoBg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 450px;
+}
+
+
+@media only screen and (max-width: 1028px) {
+  .info__box {
+    height: 390px !important;
+  }
+}
+
+@media only screen and (max-width: 782px) {
+  .info__box {
+    background-size: 200%;
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  .info__box {
+    background-image: none;
+  }
+}

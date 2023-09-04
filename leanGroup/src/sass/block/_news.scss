@@ -1,0 +1,27 @@
+.news__box-data {
+  color: var(--color-text-secondary, #919399);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.news__box-text {
+  color: var(--text-color-text, #2C2D2E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-font-feature-settings: 'clig' off, 'liga' off;
+  -moz-font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.news__box-img {
+  width: 100%;
+}
